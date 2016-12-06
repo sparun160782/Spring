@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "primary.datasource.mysql",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.config.BookshopDSConfig",
+      "sourceMethod": "public javax.sql.DataSource mysqlDataSource() "
+    },
+    {
+      "name": "secondary.datasource.mysql",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.config.OTRDSConfig",
+      "sourceMethod": "public javax.sql.DataSource mysqlDataSource() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
